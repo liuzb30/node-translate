@@ -1,0 +1,20 @@
+{
+  "name": "node-ts-translate",
+  "version": "0.0.3",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev cli.ts"
+  },
+  "bin": {
+    "fy": "./dist/cli.js"
+  },
+  "files": [
+    "dist/*.js"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.11.1",
+    "commander": "^6.1.0",
+    "ts-md5": "^1.2.7"
+  }
+}
